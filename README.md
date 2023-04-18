@@ -10,7 +10,7 @@ Deploy: (EM BREVE)
 
 ## Sobre
 
-É uma página de login para ser usada em diversos projetos. Estou planejando deixar mais interativa para uma melhor esperiência para o usuário.
+É uma página de login para ser usada em diversos projetos. Estou planejando deixar mais interativa para uma melhor experiência para o usuário.
 
 ### Objetivo
 
