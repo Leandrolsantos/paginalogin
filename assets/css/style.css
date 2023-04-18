@@ -22,7 +22,7 @@ body {
     height: 480px;
     padding: 35px;
     border-radius: 7px; 
-    box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.492), 2px 2px 4px black;
+    box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.173), 2px 2px 4px rgba(0, 0, 0, 0.655);
  }
 
   .login form {
@@ -45,6 +45,23 @@ body {
   .login img {
     width: 85px;
     height: auto;
+  }
+
+  input[type="submit"] {
+    transition: 1s ease;
+  }
+
+  input[type="submit"]:hover {
+    transform: scale(1.03);
+  }
+
+  img {
+    margin-bottom: 3rem;
+    transition: 1s ease;
+  }
+
+  img:hover {
+    transform: scale(1.2);
   }
 
   input::placeholder{
@@ -72,11 +89,13 @@ body {
     color: rgba(255, 31, 1, 0.93);
     text-decoration: none;
     margin-left: 1rem;
-    border: 2px solid black;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px black;
     padding: 5px;
     font-size: 16px;
     font-weight: bold;
-    background: white;
+    background: rgba(255, 255, 255, 0.74);
     border-radius: 10px;
+    transition: 1s ease;
   }
 
