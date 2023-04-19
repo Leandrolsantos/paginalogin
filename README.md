@@ -1,6 +1,8 @@
 # Página de Login
 
-![](./)
+![](./assets/img/fundologin.png)
+
+![](./assets/img/fundologing.gif)
 
 Deploy: (EM BREVE)
 
@@ -10,11 +12,11 @@ Deploy: (EM BREVE)
 
 ### Objetivo
 
-Criar pequenos projetos para a construção de um projeto maior. O primeiro passo é a tela de login, nos próximos projetos serão outros elementos para um site customizável para qualquer finalidade que envolva vendas de produtos online.
+Criar pequenos projetos para a construção de um projeto maior. O primeiro passo é a tela de login, nos próximos projetos serão outros elementos para um site customizável para qualquer finalidade.
 
 ### Desafio
 
-Desenvolver um site completo, porém este é só o primeiro passo.
+Desenvolver um site completo responsivo, porém este é só o primeiro passo.
 
 ### Conclusão
 
