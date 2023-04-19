@@ -4,7 +4,7 @@
 
 ![](./assets/img/fundologing.gif)
 
-Deploy: (EM BREVE)
+Deploy: https://paginalogin.vercel.app/
 
 ## Sobre
 
