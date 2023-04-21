@@ -1,0 +1,100 @@
+body {
+    background: url(/assets/img/fundo2.jpg) no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.area-cadastro {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+ .cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(50, 154, 234, 0.426), rgba(193, 233, 238, 0.426));
+    width: 37.5rem;
+    height: 30rem;
+    padding: 2.188rem;
+    border-radius: 7px; 
+    box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.173), 2px 2px 4px rgba(0, 0, 0, 0.359);
+ }
+
+  .cadastro form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cadastro input {
+    margin-top: 0.625rem;
+    background: rgba(255, 255, 255, 0.836);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    height: 2.375rem;
+    outline: none;
+    border-radius: 0.406rem;
+    padding-left: 1rem;
+  }
+
+  .cadastro img {
+    width: 5.313rem;
+    height: auto;
+  }
+
+  input[type="submit"] {
+    transition: 1s ease;
+  }
+
+  input[type="submit"]:hover {
+    transform: scale(1.03);
+  }
+
+  img {
+    margin-bottom: 3rem;
+    transition: 1s ease;
+  }
+
+  img:hover {
+    transform: scale(1.2);
+  }
+
+  input::placeholder{
+    color: rgba(0, 0, 0, 0.942);
+    font-size: 0.8rem;
+  }
+
+  form [type="submit"]{
+    display: block;
+    background-color: rgba(32, 139, 239, 0.623);
+    color: white;
+    font-size: 0.944rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: -0.2px 2px 3px rgba(0, 0, 0, 0.516);
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.942);
+    font-size: 1.2rem;
+  }
+
+  a {
+    color: rgba(255, 31, 1, 0.93);
+    text-decoration: none;
+    margin-left: 1rem;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px black;
+    padding: 0.313rem;
+    font-size: 0.82rem;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.74);
+    border-radius: 0.625rem;
+    transition: 1s ease;
+  }
