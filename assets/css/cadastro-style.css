@@ -5,6 +5,18 @@ body {
     overflow: hidden;
 }
 
+form [type="submit"]{
+    display: block;
+    position: absolute;
+    background-color: rgba(32, 139, 239, 0.623);
+    color: white;
+    font-size: 0.944rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: -0.2px 2px 3px rgba(0, 0, 0, 0.516);
+  }
+
 .area-cadastro {
     display: flex;
     height: 100vh;
@@ -47,54 +59,7 @@ body {
     height: auto;
   }
 
-  input[type="submit"] {
-    transition: 1s ease;
-  }
-
-  input[type="submit"]:hover {
-    transform: scale(1.03);
-  }
-
-  img {
-    margin-bottom: 3rem;
-    transition: 1s ease;
-  }
-
-  img:hover {
-    transform: scale(1.2);
-  }
-
   input::placeholder{
     color: rgba(0, 0, 0, 0.942);
     font-size: 0.8rem;
-  }
-
-  form [type="submit"]{
-    display: block;
-    background-color: rgba(32, 139, 239, 0.623);
-    color: white;
-    font-size: 0.944rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-    box-shadow: -0.2px 2px 3px rgba(0, 0, 0, 0.516);
-  }
-
-  p {
-    color: rgba(255, 255, 255, 0.942);
-    font-size: 1.2rem;
-  }
-
-  a {
-    color: rgba(255, 31, 1, 0.93);
-    text-decoration: none;
-    margin-left: 1rem;
-    border: 1px solid black;
-    box-shadow: 1px 1px 2px black;
-    padding: 0.313rem;
-    font-size: 0.82rem;
-    font-weight: bold;
-    background: rgba(255, 255, 255, 0.74);
-    border-radius: 0.625rem;
-    transition: 1s ease;
   }
