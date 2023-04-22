@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="/assets/css/cadastro-style.css">
     <link rel="icon" type="image/favicon" href="/assets/img/favicon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
     <title>Nome da página - Cadastro</title>
 </head>
 <body>
@@ -16,13 +17,13 @@
                 <h2>Cadastro</h2>
                 
                 <label>Nome</label>
-                <input type="text" name="nome" placeholder="Nome do usuário" autofocus>
+                <input type="text" name="nome" placeholder="Nome do usuário" required>
                 
                 <label>E-mail</label>
-                <input type="email" name="email" placeholder="Digite seu e-mail">
+                <input type="email" name="email" placeholder="Digite seu e-mail" required>
                 
                 <label>Telefone</label>
-                <input type="tel" name="phone" placeholder="(XX)XXXX-XXXX">
+                <input type="tel" name="phone" placeholder="(XX)XXXX-XXXX" required>
                 
             <fieldset>
                 <legend>Confirmação de Senha </legend>
@@ -31,6 +32,7 @@
                 <input type="password" placeholder="Confirme Senha" id="confirm_password" required>
             
                 <button type="submit" class="pure-button pure-button-primary">Finalizar Cadastro</button>
+                <button type="submit"><a href="/index.html">Voltar</a></button>
             </fieldset>
             </form>
         </div>
