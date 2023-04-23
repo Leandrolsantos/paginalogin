@@ -1,8 +1,8 @@
 # Página de Login
 
-![](./assets/img/fundologin.png)
+![](./assets/img/fundologin2.png)
 
-![](./assets/img/fundologing.gif)
+![](./assets/img/fundologing2.gif)
 
 Deploy: https://paginalogin.vercel.app/
 
